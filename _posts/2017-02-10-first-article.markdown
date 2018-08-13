@@ -1,24 +1,15 @@
 ---
 layout: post
-title:  "Lorem ipsum dolor"
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum unde nihil qui doloribus, esse natus totam delectus excepturi nulla suscipit tenetur id corrupti mollitia commodi.
+title:  "Hello World"
+description: This is my first post for my personal blog
 date:   2017-02-10 +0200
 categories: jekyll update
-img: 1000.jpg
-author: Artem Sheludko
+img: hello-world.png
+author: Alejandro Rosero
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum unde nihil qui doloribus, esse natus totam delectus excepturi nulla suscipit tenetur id corrupti mollitia commodi.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum unde nihil qui doloribus, esse natus totam delectus excepturi nulla suscipit tenetur id corrupti mollitia commodi.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum unde nihil qui doloribus, esse natus totam delectus excepturi nulla suscipit tenetur id corrupti mollitia commodi.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum unde nihil qui doloribus, esse natus totam delectus excepturi nulla suscipit tenetur id corrupti mollitia commodi.
+I'm just testing tihs framework
 
-![Humans]({{site.baseurl}}/assets/images/jekyll-poster.png)
+**Hello World**
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum unde nihil qui doloribus, esse natus totam delectus excepturi nulla suscipit tenetur id corrupti mollitia commodi.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum unde nihil qui doloribus, esse natus totam delectus excepturi nulla suscipit tenetur id corrupti mollitia commodi.
-
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum unde nihil qui doloribus, esse natus totam delectus excepturi nulla suscipit tenetur id corrupti mollitia commodi.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum unde nihil qui doloribus, esse natus totam delectus excepturi nulla suscipit tenetur id corrupti mollitia commodi.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum unde nihil qui doloribus, esse natus totam delectus excepturi nulla suscipit tenetur id corrupti mollitia commodi.
+:)
