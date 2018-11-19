@@ -1,10 +1,5 @@
 #! /usr/bin/sh
 
-export JEKYLL_VERSION=3.8
+bundle install
 
-docker rm -f jekyll
-docker run --rm \
-  --name jekyll \
-  --volume="$PWD:/srv/jekyll" \
-  -it jekyll/jekyll:$JEKYLL_VERSION \
-  jekyll build
+bundle exec jekyll serve

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Donations
+title: Donaciones
 permalink: /donations/
 ---
 

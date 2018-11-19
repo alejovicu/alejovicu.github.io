@@ -1,18 +1,17 @@
 ---
 layout: page
-title: About
+title: Acerca de mi
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Soy Alejandro Rosero Vicuña
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Estudios Formales:
+* Ingeniero en Informática de la [Universidad Autónoma de Occidente](http://www.uao.edu.co/)
+* Especialista en Mercadeo de la [Universidad Autónoma de Occidente](http://www.uao.edu.co/)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Experiencia:
+* Desarrollador de Software - [Open Systems](https://www.openintl.com/es/)
+* QA Automation - [PROS](https://pros.com/) conrtatista por [Cafeto](http://cafeto.co/)
+* SDET - [Disney](https://www.disney.com/) conrtatista por [Globant](https://www.globant.com/)
+* Automation Engineer - [Red Hat](https://www.redhat.com/en) conrtatista por [PSL](https://www.psl.com.co/)
