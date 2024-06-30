@@ -1,17 +1,16 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    color: #333;
-    background-image: url('resources/background.jpg');
+    color: #5bb12f;
+    background-image: url('../resources/background.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
 
 header {
-    background: rgba(40, 44, 52, 0.8);
-    color: white;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
-    padding: 50px 20px;
 }
 
 .logo {
