@@ -32,7 +32,7 @@ header {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background: #61dafb;
+    background: #c7d301;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -65,7 +65,7 @@ main {
 
 .carousel-button {
     position: absolute;
-    top: 50%;
+    top: 90%;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.5);
     color: white;
@@ -75,11 +75,11 @@ main {
 }
 
 .carousel-button.prev {
-    left: -10px;
+    left: -5px;
 }
 
 .carousel-button.next {
-    right: -10px;
+    right: -5px;
 }
 
 .carousel-container {
@@ -99,7 +99,7 @@ main {
 .carousel-item {
     flex: 0 0 auto;
     /* Los items no deben crecer ni encoger */
-    width: 100%;
+    width: 120%;
     /* Ancho inicial de cada item */
 }
 
@@ -113,6 +113,19 @@ main {
 
 .feature-item,
 .inulin-info,
+.contact {
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.feature-item,
+.contraindicaciones-info,
 .contact {
     margin-bottom: 30px;
     background: rgba(255, 255, 255, 0.8);
