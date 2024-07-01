@@ -19,13 +19,14 @@ header {
 }
 
 .hero h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 0;
 }
 
 .hero p {
     font-size: 1.2em;
     margin-top: 20px;
+    text-align: left;
 }
 
 .btn {
@@ -75,11 +76,11 @@ main {
 }
 
 .carousel-button.prev {
-    left: 10px;
+    left: -10px;
 }
 
 .carousel-button.next {
-    right: 10px;
+    right: -10px;
 }
 
 .carousel-container {
@@ -94,8 +95,9 @@ main {
 }
 
 .carousel-item {
-    flex: 0 0 100%;
+    flex: 0 0 auto;
     width: 100%;
+    text-align: left;
 }
 
 .features,
@@ -117,15 +119,27 @@ main {
 
 h2 {
     text-align: center;
+    font-size: 2em;
 }
 
-.feature-item,
-.contraindicaciones-info,
-.contact {
+.feature-item {
     margin-bottom: 30px;
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contraindicaciones-info {
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
 }
 
 footer {
@@ -139,7 +153,7 @@ footer {
 
 @media (max-width: 1024px) {
     .hero h1 {
-        font-size: 2.5em;
+        font-size: 2.2em;
     }
     .hero p {
         font-size: 1.1em;
@@ -154,7 +168,7 @@ footer {
 
 @media (max-width: 768px) {
     .hero h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
     .hero p {
         font-size: 1em;
