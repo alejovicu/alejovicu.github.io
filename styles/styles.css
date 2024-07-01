@@ -65,7 +65,7 @@ main {
 
 .carousel-button {
     position: absolute;
-    top: 90%;
+    top: 50%;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.5);
     color: white;
@@ -75,32 +75,27 @@ main {
 }
 
 .carousel-button.prev {
-    left: -5px;
+    left: 10px;
 }
 
 .carousel-button.next {
-    right: -5px;
+    right: 10px;
 }
 
 .carousel-container {
     overflow: hidden;
     width: 100%;
-    /* Ancho del contenedor del carrusel */
     position: relative;
 }
 
 .carousel-slide {
     display: flex;
-    /* Flexbox para los items del carrusel */
     transition: transform 0.5s ease;
-    /* Transición suave para el desplazamiento */
 }
 
 .carousel-item {
-    flex: 0 0 auto;
-    /* Los items no deben crecer ni encoger */
-    width: 120%;
-    /* Ancho inicial de cada item */
+    flex: 0 0 100%;
+    width: 100%;
 }
 
 .features,
@@ -137,4 +132,72 @@ footer {
     text-align: center;
     padding: 20px;
     background: rgba(255, 255, 255, 0.8);
+}
+
+
+/* Responsive Styles */
+
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 2.5em;
+    }
+    .hero p {
+        font-size: 1.1em;
+    }
+    .carousel {
+        width: 95%;
+    }
+    .carousel-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+    .hero p {
+        font-size: 1em;
+    }
+    .btn {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+    main {
+        padding: 30px 10px;
+    }
+    .carousel {
+        width: 100%;
+    }
+    .carousel-item {
+        width: 100%;
+    }
+    .carousel-button {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.5em;
+    }
+    .hero p {
+        font-size: 0.9em;
+    }
+    .btn {
+        padding: 6px 12px;
+        font-size: 0.8em;
+    }
+    main {
+        padding: 20px 5px;
+    }
+    .carousel {
+        width: 100%;
+    }
+    .carousel-item {
+        width: 100%;
+    }
+    .carousel-button {
+        padding: 6px;
+    }
 }
