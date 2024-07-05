@@ -19,10 +19,8 @@ header {
 }
 
 .section {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    text-align: center;
-    margin-bottom: 30px;
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
@@ -84,8 +82,8 @@ header {
 
 .btn {
     display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
+    margin: 0 5rem;
+    padding: 20px 20px;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -99,74 +97,6 @@ header {
 
 main {
     padding: 50px 20px;
-}
-
-.carousel {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto 50px;
-    overflow: hidden;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-}
-
-.carousel-container {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 100%;
-}
-
-.carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.carousel-button.prev {
-    left: -10px;
-}
-
-.carousel-button.next {
-    right: -10px;
-}
-
-.carousel-container {
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-}
-
-.carousel-slide {
-    display: flex;
-    transition: transform 0.5s ease;
-}
-
-.carousel-item {
-    display: flex;
-    flex-direction: row;
-    flex: 0 0 auto;
-    width: 100%;
-    text-align: left;
-    align-items: center;
-}
-
-.carousel-item img {
-    width: 40%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.carousel-text {
-    padding-left: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .features,
@@ -202,16 +132,6 @@ h2 {
     text-align: center;
 }
 
-.contraindicaciones-info {
-    margin-bottom: 30px;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 800px;
-    margin: 20px auto;
-    text-align: left;
-}
-
 ul.navega li {
     display: inline;
     padding-right: 0.5em;
@@ -243,7 +163,7 @@ ul.navega li {
         font-size: 1em;
     }
     .btn {
-        padding: 8px 16px;
+        padding: 8px 30px;
         font-size: 0.9em;
     }
     main {
@@ -269,7 +189,7 @@ ul.navega li {
 }
 
 .btn {
-    padding: 6px 12px;
+    padding: 6px 30px;
     font-size: 0.8em;
 }
 
