@@ -122,6 +122,16 @@ main {
     color: #9d9d9b;
 }
 
+.socialLink {
+    color: #9d9d9b;
+    text-decoration: none;
+}
+
+.socialLink:hover {
+    color: #9d9d9b;
+    text-decoration: none;
+}
+
 .fb {
     padding-left: 25px;
     background: url('../resources/fb.png') no-repeat left center;
