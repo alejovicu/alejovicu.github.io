@@ -1,21 +1,75 @@
 body {
+    background-image: url('../resources/background.jpg');
     margin: 0;
     font-family: Arial, sans-serif;
-    color: #5bb12f;
-    background-image: url('../resources/background.jpg');
-    background-size: cover;
+    color: black;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 header {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
 
+.section {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section-text {
+    text-align: left;
+    margin: 0 20px;
+}
+
+.custom-list {
+    list-style: none;
+    /* Elimina los puntos por defecto */
+    padding: 0;
+    /* Elimina el padding por defecto */
+    text-align: left;
+}
+
+.custom-list li {
+    margin: 10px 0;
+    /* Margen opcional entre elementos */
+    padding-left: 25px;
+    /* Espacio para la imagen */
+    background: url('../resources/favicon.png') no-repeat left center;
+    /* Ruta de la imagen y posición */
+    background-size: 20px 20px;
+    /* Tamaño de la imagen */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
 .logo {
-    max-width: 150px;
-    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.slogan {
+    max-width: 600px;
+    margin: 20px 0;
 }
 
 .hero h1 {
@@ -25,19 +79,19 @@ header {
 
 .hero p {
     font-size: 1.2em;
-    margin-top: 20px;
-    text-align: left;
+    margin: 10rem;
+    text-align: center;
 }
 
 .btn {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background: #c7d301;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     transition: background 0.3s;
+    background: #9d9d9b;
 }
 
 .btn:hover {
@@ -50,7 +104,7 @@ main {
 
 .carousel {
     position: relative;
-    width: 90%;
+    width: 100%;
     max-width: 600px;
     margin: 0 auto 50px;
     overflow: hidden;
@@ -95,9 +149,25 @@ main {
 }
 
 .carousel-item {
+    display: flex;
+    flex-direction: row;
     flex: 0 0 auto;
     width: 100%;
     text-align: left;
+    align-items: center;
+}
+
+.carousel-item img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.carousel-text {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .features,
@@ -191,27 +261,34 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
-    .hero h1 {
-        font-size: 1.5em;
-    }
-    .hero p {
-        font-size: 0.9em;
-    }
-    .btn {
-        padding: 6px 12px;
-        font-size: 0.8em;
-    }
-    main {
-        padding: 20px 5px;
-    }
-    .carousel {
-        width: 100%;
-    }
-    .carousel-item {
-        width: 100%;
-    }
-    .carousel-button {
-        padding: 6px;
-    }
+@media (max-width: 480px) .hero h1 {
+    font-size: 1.5em;
+}
+
+.hero p {
+    font-size: 0.9em;
+}
+
+.btn {
+    padding: 6px 12px;
+    font-size: 0.8em;
+}
+
+main {
+    padding: 20px 5px;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+.carousel-button {
+    padding: 6px;
+}
+
+
 }
