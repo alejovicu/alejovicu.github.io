@@ -10,7 +10,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 header {
@@ -63,12 +62,12 @@ header {
 }
 
 .logo {
-    max-width: 600px;
+    max-width: 400px;
     margin: 20px 0;
 }
 
 .slogan {
-    max-width: 600px;
+    max-width: 400px;
     margin: 20px 0;
 }
 
@@ -172,7 +171,7 @@ main {
 
 .features,
 .inulin-info,
-.contact {
+.contacto {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
@@ -180,11 +179,12 @@ main {
 
 .feature-item,
 .inulin-info,
-.contact {
+.contacto {
     margin-bottom: 30px;
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
+    color: #9d9d9b;
 }
 
 h2 {
@@ -212,10 +212,9 @@ h2 {
     text-align: left;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.8);
+ul.navega li {
+    display: inline;
+    padding-right: 0.5em;
 }
 
 
