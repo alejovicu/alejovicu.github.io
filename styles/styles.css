@@ -19,6 +19,8 @@ header {
 }
 
 .section {
+    display: flex;
+    align-items: stretch;
     max-width: 900px;
     margin: 5px auto;
     background: rgba(255, 255, 255, 0.8);
@@ -27,8 +29,31 @@ header {
     text-align: justify;
 }
 
+.beneficios {
+    max-width: 900px;
+    margin: 5px auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.text-image-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
+
+.imgflor {
+    flex-shrink: 0;
+    width: 250px;
+    height: 250px;
+    padding-top: 80px;
+}
+
 .section-text {
     text-align: left;
+    flex-grow: 1;
     margin: 0 20px;
 }
 
@@ -181,7 +206,13 @@ ul.navega li {
     }
     .hero p {
         font-size: 1.1em;
-        margin: 1rem 4rem;
+        margin: 5rem;
+    }
+    .btn {
+        padding: 5px 20px;
+    }
+    main {
+        padding: 40px 15px;
     }
 }
 
@@ -191,14 +222,27 @@ ul.navega li {
     }
     .hero p {
         font-size: 1em;
-        margin: 1rem 4rem;
+        margin: 2rem;
     }
     .btn {
-        padding: 10px 30px;
+        margin: 0 3rem;
+        padding: 5px 15px;
         font-size: 0.9em;
     }
     main {
         padding: 30px 10px;
+    }
+    .logo,
+    .slogan {
+        max-width: 300px;
+        margin: 15px 0;
+    }
+    .text-image-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgflor {
+        margin: 0 0 20px 0;
     }
 }
 
@@ -208,7 +252,7 @@ ul.navega li {
     }
     .hero p {
         font-size: 0.9em;
-        margin: 1rem 4rem;
+        margin: 1rem;
     }
     .btn {
         margin: 0 2rem;
@@ -218,12 +262,17 @@ ul.navega li {
     main {
         padding: 20px 5px;
     }
-    .logo {
-        max-width: 250px;
-        margin: -20px 0;
-    }
+    .logo,
     .slogan {
-        max-width: 230px;
-        margin: -20px 0;
+        max-width: 200px;
+        margin: 10px 0;
+    }
+    .text-image-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgflor {
+        margin: 0 0 20px 0;
+        width: 80%;
     }
 }
